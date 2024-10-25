@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 15px 4.3%;
+    background-color: rgba(0, 0, 0, 0.925);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    color: rgb(189, 188, 188);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.menu a:first-child, 
+.menu a:last-child { 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu li {
+    margin: 0 15px; 
+}
+
+
+
+.iphoneqp {
+    width: 100%;
+    height: 40rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.iphoneqp h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.iphoneqp h3 {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.compra a {
+    color: rgb(57, 120, 255);
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.iphoneq {
+    width: 100%;
+    height: 40rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+    padding: 70px;
+}
+
+
+.iphoneq h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.iphoneq h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.watch {
+    width: 100%;
+    height: 40rem;
+    background-image: url(https://www.apple.com/br/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 70px;
+    margin-top: 15px;
+}
+
+.watch h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.watch h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.watch h5 {
+    color: rgb(231, 43, 29);
+    font-size: 20px;
+}
+
+.atv {
+    width: 100%;
+    height: 40rem;
+
+    text-align: center;
+    padding: 70px;
+    margin-top: 30px;
+}
+
+.imageatv {
+    width: 100%;
+    height: 30rem;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202210?wid=538&hei=535&fmt=jpeg&qlt=95&.v=1664896361408);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.atv h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.atv h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.aone {
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    padding: 70px;
+    margin-top: 15px;
+
+}
+
+.imgaone {
+    width: 100%;
+    height: 20rem;
+    background-image: url(https://www.apple.com/v/apple-music/w/images/overview/rihanna/listen_and_discover__b0tsym1ura6a_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.imgaonec {
+    width: 200px;
+    margin-left: 60%;
+    padding-top: 27px;
+    display: flex;
+    font-weight: bold;
+}
+
+.aone h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.aone h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+
+p {
+    padding: 10px;
+}
+
+section.s {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.presentes {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/holiday-2023/holiday_2023_promo__dirvdl6a3r2a_small.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px;
+}
+
+.macbookp {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_small.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+section.d {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.airpodsp {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_small.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px;
+}
+
+span {
+    color: white;
+}
+
+.imac {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/imac/promo_imac_preorder__d3qgowjdhqs2_small.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+section.c {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.macbookair {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bf/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_small.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px;
+}
+
+
+.ipad {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 35rem;
+    background-image: url(https://www.apple.com/v/home/bt/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-left: 15px;
+    padding: 20px;
+    color: white;
+}
+
+section.tv {
+    display: flex;
+    
+}
+
+.imgum {
+    width: 10%;
+    height: 32rem;
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Flp_AiBFw4jh_CjNf0mXdg/689x387.jpg);
+    background-position: right;
+    margin-top: 15px;
+}
+
+.imgdois {
+    width: 100%;
+    height: 32rem;
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/q8QlFpnNct0G9kpRmyMyNw/689x387.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+    display: flex;
+}
+
+.tvinfo{
+    display: flex;
+    margin-top: 395px;
+    margin-left: 40px;
+}
+
+.btnf {
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+}
+
+.imgtres {
+    width: 10%;
+    height: 32rem;
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/bnqBBC8sXTXWmHtCuR0TBg/689x387.jpg);
+    background-position: left;
+    margin-top: 15px;
+}
+
+footer {
+    color: rgb(104, 104, 104);
+    background-color: rgb(245, 245, 245);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+footer ul h5 {
+    margin-top: 10px;
+}
+
+hr {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.fone,
+.ftwo,
+.fthree,
+.flinks {
+    margin-left: 25px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-size: 12.5px;
+}
